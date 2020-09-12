@@ -1,4 +1,5 @@
 const request = require("request");
+var fs = require("fs");
 
 console.log(
   "Hey Vi! J'ai fait un petit logiciel qui fetch du data de finnhub.io et te dompe ça dans un fichier. \n"
@@ -22,6 +23,15 @@ request(
       return console.log(err);
     }
     console.log(body);
+
+    fs.appendFile("TaBaseDeDonnees.txt", JSON.stringify(body), function (err) {
+      //JSON.stringify(body) c'est pour transformer body en text, sinon ça log [Object], je t'expliquerai au besoin
+      if (err) throw err;
+    });
+
+    console.log(
+      "J'écris le tout dans un fichier text : TaBaseDeDonnees.txt, a voir si tu veux mettre ça en .csv ou whatever :)!"
+    );
   }
 );
 
@@ -39,4 +49,5 @@ si tu veux faire un request différent, en gros c'est juste de changer la premi�
 Et dans la documentation sur https://finnhub.io/docs/api#quote
 
 Dans les exemples de code tu as exactement les requêtes à faire.
+);
        */

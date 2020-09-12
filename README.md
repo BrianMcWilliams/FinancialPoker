@@ -34,3 +34,6 @@ Ensuite tu roules:
 node ./financialpoker.js
 
 Tu vas voir l'output de base, t'es prêt à travailler!
+
+Là il te manque juste à prendre le data que tu veux, et l'écrire dans une base de données.
+J'ai mis des commentaires dans financialpoker.js pour expliquer.
