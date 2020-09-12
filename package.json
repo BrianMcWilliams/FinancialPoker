@@ -1,0 +1,27 @@
+{
+  "name": "financialpoker",
+  "version": "1.0.0",
+  "description": "This app is for Vinc to grab his financial data!",
+  "main": "financialpoker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianMcWilliams/FinancialPoker.git"
+  },
+  "author": "Brian McWilliams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianMcWilliams/FinancialPoker/issues"
+  },
+  "homepage": "https://github.com/BrianMcWilliams/FinancialPoker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2"
+  }
+}
