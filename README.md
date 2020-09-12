@@ -35,5 +35,13 @@ node ./financialpoker.js
 
 Tu vas voir l'output de base, t'es prêt à travailler!
 
-Là il te manque juste à prendre le data que tu veux, et l'écrire dans une base de données.
+Là il te manque juste à prendre le data que tu veux, et voir comment tu veux l'organiser dans ta base de données.
 J'ai mis des commentaires dans financialpoker.js pour expliquer.
+
+Je te suggère de structurer ça en JSON (très programmeur comme suggestion, mais ça va être un peu plus complexe)
+Tu te fais un objet par indice d'action que tu veux suivre, et tu met le data dedans pour chaque jour.
+https://www.w3schools.com/whatis/whatis_json.asp
+
+Sinon tu peux faire un .csv style excel
+
+Bonne chance!
